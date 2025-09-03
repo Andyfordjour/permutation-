@@ -32,3 +32,15 @@ The UI sends the string to the backend API (Python app).
 
 The backend computes permutations and returns results.
 
+# Docker Containerization
+
+This application can be containerized with Docker for portability. The Dockerfile provided defines the runtime environment.
+
+Build the Docker image:
+
+docker build -t string-permutations .
+
+docker run -it --rm string-permutations
+
+# OUT RESULTS
+In the file is a screenshot of how the code runs
