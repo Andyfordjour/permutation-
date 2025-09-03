@@ -23,7 +23,7 @@ NOTE:  make sure you have python installed with a version of 3.9.0 and above
 
 # ARCHITECTURE
 
- User Input  ->  UI (Input box: string)  -> Backend (Python recursion code) -> Output: permutations 
+ User Input  ->  UI (Input box: string)/ Terminal  -> Backend (Python recursion code) -> Output: permutations 
 
 
 Users would interact with a simple UI (text box) using a exapmle python flask application .
@@ -40,7 +40,11 @@ Build the Docker image:
 
 docker build -t string-permutations .
 
+Run the container interactively so you can input a string
+
 docker run -it --rm string-permutations
+
+
 
 # OUT RESULTS
 In the file is a screenshot of how the code runs
