@@ -26,7 +26,7 @@ NOTE:  make sure you have python installed with a version of 3.9.0 and above
  User Input  ->  UI (Input box: string)/ Terminal  -> Backend (Python recursion code) -> Output: permutations 
 
 
-Users would interact with a simple UI (text box) using a exapmle python flask application .
+Users would interact with a simple UI (text box) using the terminal.
 
 The UI sends the string to the backend API (Python app).
 
